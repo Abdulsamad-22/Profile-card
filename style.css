@@ -1,0 +1,112 @@
+body{
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: #16868D;
+			font-family: poppins, sans-serif;
+		}
+
+		p{
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+
+		.bg-left{
+			width: 850px;
+			position: absolute;
+			top: -29.375rem;
+			left: -11.25rem;
+			transform: 40px;
+		}
+
+		.bg-bottom{
+			width: 850px;
+			position: fixed;
+			right: -11.25rem;
+			bottom: -31.25rem;
+		}
+
+		.profile-card{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 350px;
+			height: 380px;
+			background-color: #ffffff;
+			border-radius: 12px;
+			z-index: 200;
+		}
+
+		.profile-header{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: relative;
+			margin-bottom: 4.375rem;
+		}
+
+		.profile-header img{
+			border-radius: 12px 12px 0 0;
+		}
+
+		.profile-picture{
+			display: flex;
+			justify-content: center;
+			width: 90px;
+			background-color: white;
+			position: absolute;
+			bottom: -60px;
+			padding: 8px;
+
+			border-radius: 70px;
+		}
+
+		.profile-picture img{
+			width: 90px;
+			border-radius: 47.5px;
+		}
+
+		.profile-name{
+			font-size: 1.25rem;
+			font-weight: 600;
+			margin-bottom: 0.5rem;
+		}
+
+		.profile-name span{
+			color: gray;
+			margin-left: 0.25rem;
+		}
+
+		.profile-location{
+			color: gray;
+			margin-bottom: 2.625rem;
+		}
+
+		.profile-stats{
+			display: grid;
+			grid-template-columns: 100px 100px 100px;
+			align-items: center;
+			justify-content: center;
+			border-top: 1px solid gray;
+			width: 350px;
+			padding-top: 12px;
+			padding-bottom: 24px;
+		}
+
+		.followers-likes-photos{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.stats-figure{
+			font-size: 1.125rem;
+			font-weight: 600;
+		}
+
+		.stats-name{
+			font-size: 0.75rem;
+			color: gray;
+		}
